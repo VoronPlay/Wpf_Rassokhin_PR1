@@ -6,8 +6,29 @@
         xmlns:local="clr-namespace:Wpf_Rassokhin_PR1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="-561,-142,-665,-126">
-        <Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click" />
+    <Grid Margin="-561,-142,-665,0" Height="702" VerticalAlignment="Top">
 
+        <!-- <Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click" /> -->
+        <!-- <Button x:Name="Btn1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="150"
+                Height="30"
+                FontSize="17"
+                Content="Обычная кнопка"
+                Foreground="#006699"
+                Background="#f0f0f0"
+                BorderBrush="#303030" /> -->
+
+        <Button x:Name="Btn1" Height="50" Width="200" Content="Обычная кнопка" Margin="890,301,936,351">
+            <Button.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="LightBlue" Offset="0" />
+                        <GradientStop Color="DarkBlue" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
