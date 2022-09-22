@@ -8,19 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="-561,-142,-665,0" Height="702" VerticalAlignment="Top">
 
-        <!-- <Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click" /> -->
-        <!-- <Button x:Name="Btn1"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Width="150"
-                Height="30"
-                FontSize="17"
-                Content="Обычная кнопка"
-                Foreground="#006699"
-                Background="#f0f0f0"
-                BorderBrush="#303030" /> -->
-
-        <Button x:Name="Btn1" Height="50" Width="200" Content="Обычная кнопка" Margin="890,301,936,351">
+        <Button x:Name="Btn1" Height="50" Width="200" Content="Обычная кнопка" Margin="890,301,936,351" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
@@ -30,5 +18,12 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <Canvas Margin="558,148,0,0">
+            <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
+            <Button x:Name="Win2" Canvas.Left="150" Canvas.Top="10" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>
+            <Button x:Name="Win3" Canvas.Left="280" Canvas.Top="10" Height="50" Width="100" Content="Win3" Click="Win3_Click"></Button>
+            <Button x:Name="Win4" Canvas.Left="400" Canvas.Top="10" Height="50" Width="100" Content="Win4" Click="Win4_Click"></Button>
+        </Canvas>
+
     </Grid>
 </Window>

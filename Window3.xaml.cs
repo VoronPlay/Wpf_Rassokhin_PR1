@@ -15,15 +15,13 @@ using System.Windows.Shapes;
 namespace Wpf_Rassokhin_PR1
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для Window3.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window3 : Window
     {
-        public Window1()
+        public Window3()
         {
             InitializeComponent();
         }
-
-
     }
 }

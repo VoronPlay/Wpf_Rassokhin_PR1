@@ -7,9 +7,6 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <Canvas>
-           <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
-           <Button x:Name="Win2" Canvas.Left="150" Canvas.Top="10" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>
-        </Canvas>
+        
     </Grid>
 </Window>
