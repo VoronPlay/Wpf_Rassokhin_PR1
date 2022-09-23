@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid>
-        <WrapPanel Margin="-249,0,0,-204">
+        <WrapPanel>
             <Label Content="Регистрация пользователя"/>
             <Label Content="ФИО"/>
             <TextBlock Width="200"/>

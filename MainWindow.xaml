@@ -25,6 +25,7 @@
             <Button x:Name="Win3" Canvas.Left="280" Canvas.Top="10" Height="50" Width="100" Content="Win3" Click="Win3_Click"></Button>
             <Button x:Name="Win4" Canvas.Left="400" Canvas.Top="10" Height="50" Width="100" Content="Win4" Click="Win4_Click"></Button>
             <Button x:Name="Win5" Canvas.Left="520" Canvas.Top="10" Height="50" Width="100" Content="Win5" Click="Win5_Click"></Button>
+            <Button x:Name="Win6" Canvas.Left="630" Canvas.Top="10" Height="50" Width="100" Content="Win6" Click="Win6_Click"></Button>
         </Canvas>
 
     </Grid>

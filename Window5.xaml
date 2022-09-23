@@ -24,80 +24,15 @@
             <Button x:Name="Win10" Canvas.Left="470" Canvas.Top="7" Height="20" Width="80" Content="О программе"></Button>
         </Canvas>
         <WrapPanel>
-            <Canvas>
-            <Button
-             x:Name="k1" Canvas.Left="150" Canvas.Top="55" Height="60" Width="60" Content="A">
-                <Button.Background>
-                    <LinearGradientBrush>
-                        <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="Yellow"/>
-                        </LinearGradientBrush.GradientStops>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-        </Canvas>
+            <Button Content="A" Margin="150,55,0,0" Background="Yellow" Height="60" Width="60"/>
+            <Button Content="B" Margin="17,55,0,0" Background="Red" Height="60" Width="60"/>
+            <Button Content="С" Margin="20,55,0,0" Background="Green" Height="60" Width="60"/>
+            <Button Content="D" Margin="20,55,0,0" Background="Blue" Height="60" Width="60"/>
+            <Button Content="E" Margin="10,55,0,0" Background="Gray" Height="60" Width="60"/>
+            <Button Content="F" Margin="10,55,0,0" Background="LightGoldenrodYellow" Height="60" Width="60"/>
         </WrapPanel>
-        <Canvas>
-            <Button
-             x:Name="k2" Canvas.Left="230" Canvas.Top="55" Height="60" Width="60" Content="B">
-                <Button.Background>
-                    <LinearGradientBrush>
-                        <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="Red"/>
-                        </LinearGradientBrush.GradientStops>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-        </Canvas>
-        <Canvas>
-            <Button
-             x:Name="k3" Canvas.Left="310" Canvas.Top="55" Height="60" Width="60" Content="C">
-                <Button.Background>
-                    <LinearGradientBrush>
-                        <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="Green"/>
-                        </LinearGradientBrush.GradientStops>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-        </Canvas>
-        <Canvas>
-            <Button
-             x:Name="k4" Canvas.Left="390" Canvas.Top="55" Height="60" Width="60" Content="D">
-                <Button.Background>
-                    <LinearGradientBrush>
-                        <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="Blue"/>
-                        </LinearGradientBrush.GradientStops>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-        </Canvas>
-        <Canvas>
-            <Button
-             x:Name="k5" Canvas.Left="470" Canvas.Top="55" Height="60" Width="60" Content="E">
-                <Button.Background>
-                    <LinearGradientBrush>
-                        <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="Gray"/>
-                        </LinearGradientBrush.GradientStops>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-        </Canvas>
-        <Canvas>
-            <Button
-             x:Name="k6" Canvas.Left="550" Canvas.Top="55" Height="60" Width="60" Content="F">
-                <Button.Background>
-                    <LinearGradientBrush>
-                        <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="LightGoldenrodYellow"/>
-                        </LinearGradientBrush.GradientStops>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-        </Canvas>
-        
+
+
         <Canvas>
             <Label Canvas.Left="145" Canvas.Top="25" Content="1.txt"/>
             <Label Canvas.Left="145" Canvas.Top="25" Content="1.txt"/>
@@ -106,6 +41,7 @@
             <Label Canvas.Left="145" Canvas.Top="25" Content="1.txt"/>
             <Label Canvas.Left="180" Canvas.Top="25" Content="2.txt"/>
             <Label Canvas.Left="220" Canvas.Top="25" Content="3.txt"/>
+            
         </Canvas>
         
     </Grid>
