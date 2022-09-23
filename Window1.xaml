@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center">
+            <Label Content="Регистрация пользователя"></Label>
+            <Label Content="ФИО"/>
+            <TextBlock Width="200"/>
+            <Label Content="Email"/>
+            <TextBlock Width="200"/>
+            <Button Content="Зарегистрироваться"/>
+        </StackPanel>
     </Grid>
 </Window>
